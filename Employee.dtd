@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT person (employee)+>
+<!ELEMENT employee (name,profession,mailid,salary)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT profession(#PCDATA)>
+<!ELEMENT mailid (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+
+<!ATTLIST employee employeed CDATA "yes">

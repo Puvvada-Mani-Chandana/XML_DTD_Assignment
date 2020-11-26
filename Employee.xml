@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person SYSTEM "Employee.dtd">
+<person>
+	<employee employeed="yes">
+		<name>chandana</name>
+        <profession>Teacher</profession>
+        <mailid>chandana@gmail.com</mailid>
+		<salary>50000</salary>
+        
+	</employee>
+	
+	<employee employeed="no">
+		<name>kiran</name>
+        <profession>Software Engineer</profession>
+        <mailid>kiran@gmail.com</mailid>
+        <salary>90000</salary>
+	</employee>
+	
+	<employee employeed="yes">
+		<name>Ramesh</name>
+		<profession>lawyer</profession>
+        <mailid>ramesh@gmail.com</mailid>
+        <salary>70000</salary>
+	</employee>
+</person>
